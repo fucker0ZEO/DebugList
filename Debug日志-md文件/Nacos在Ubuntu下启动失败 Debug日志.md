@@ -40,3 +40,28 @@ Error:A Fatal exception has occurred,Program will exit.
 然后就一切正常了
 
 ![image-20210513194606546](Nacos%E5%9C%A8Ubuntu%E4%B8%8B%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%20Debug%E6%97%A5%E5%BF%97.assets/image-20210513194606546.png)
+
+## 最后
+
+localhost在windows中是可用的。Windows可以通过localhost访问到wsl2中启动的服务！！很类似本地访问
+
+![image-20210513205931396](Nacos%E5%9C%A8Ubuntu%E4%B8%8B%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%20Debug%E6%97%A5%E5%BF%97.assets/image-20210513205931396.png)
+
+此外，为了验证wsl2端是否出现问题。安装了命令行浏览器。w3m和lynx
+
+```bash
+#安装w3m
+sudo apt install w3m w3m-img
+#访问网站的方式，以baidu为例
+w3m baidu.com
+#安装lynx
+sudo apt install lynx
+#访问网站的方式
+lynx baidu.com
+#退出的方式都是q
+```
+
+或许具体的图片无法展示，但是文字还是可以看的，可以验证本机能否访问
+
+![image-20210513210555842](Nacos%E5%9C%A8Ubuntu%E4%B8%8B%E5%90%AF%E5%8A%A8%E5%A4%B1%E8%B4%A5%20Debug%E6%97%A5%E5%BF%97.assets/image-20210513210555842.png)
+
